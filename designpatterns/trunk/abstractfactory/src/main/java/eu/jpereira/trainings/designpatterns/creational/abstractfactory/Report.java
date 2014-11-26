@@ -15,12 +15,6 @@
  */
 package eu.jpereira.trainings.designpatterns.creational.abstractfactory;
 
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.json.JSONReportBody;
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.json.JSONReportFooter;
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.json.JSONReportHeader;
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.xml.XMLReportBody;
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.xml.XMLReportFooter;
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.xml.XMLReportHeader;
 
 public class Report {
 
@@ -28,26 +22,33 @@ public class Report {
 	private ReportBody body;
 	private ReportFooter footer;
 	private ReportHeader header;
-	private String reportType;
 	
+
 
 	
 	
 	/**
 	 * @param string
 	 */
-	public Report(String string) {
-		this.reportType = string;
-		if ( reportType.equals("JSON")) {
-			//to compose Report with JSON objects
-			this.setBody(new JSONReportBody());
-			this.setFooter(new JSONReportFooter());
-			this.setHeader(new JSONReportHeader());
-		} else {
-			this.setFooter(new XMLReportFooter());
-			this.setHeader(new XMLReportHeader());
-			this.setBody(new XMLReportBody());
-		}
+	// public Report(String string) {
+	// this.reportType = string;
+	// if ( reportType.equals("JSON")) {
+	// //to compose Report with JSON objects
+	// this.setBody(new JSONReportBody());
+	// this.setFooter(new JSONReportFooter());
+	// this.setHeader(new JSONReportHeader());
+	// } else {
+	// this.setFooter(new XMLReportFooter());
+	// this.setHeader(new XMLReportHeader());
+	// this.setBody(new XMLReportBody());
+	// }
+	// }
+	public Report(ReportCreator report) {
+		// this.reportType = report;
+		this.setBody(report.createReportBody());
+		this.setFooter(report.createReportFooter());
+		this.setHeader(report.createReportHeader());
+
 	}
 
 

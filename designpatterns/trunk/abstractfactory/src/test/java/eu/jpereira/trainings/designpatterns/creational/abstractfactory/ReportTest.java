@@ -15,11 +15,12 @@
  */
 package eu.jpereira.trainings.designpatterns.creational.abstractfactory;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.Report;
-
-import static org.junit.Assert.*;
+import eu.jpereira.trainings.designpatterns.creational.abstractfactory.json.JSONReportFactory;
+import eu.jpereira.trainings.designpatterns.creational.abstractfactory.xml.XMLReportFactory;
 
 /**
  * @author jpereira
@@ -30,8 +31,8 @@ public class ReportTest {
 
 	@Test
 	public void testCreateJSONReport() {
-
-		Report report = new Report("JSON");
+		JSONReportFactory jsonreport = new JSONReportFactory();
+		Report report = new Report(jsonreport);
 		assertEquals("JSON", report.getBody().getType());
 		assertEquals("JSON", report.getHeader().getType());
 		assertEquals("JSON", report.getFooter().getType());
@@ -41,7 +42,9 @@ public class ReportTest {
 	@Test
 	public void testCreateXMLReport() {
 
-		Report report = new Report("XML");
+		// Report report = new Report("XML");
+		XMLReportFactory xmlreport = new XMLReportFactory();
+		Report report = new Report(xmlreport);
 		assertEquals("XML", report.getBody().getType());
 		assertEquals("XML", report.getHeader().getType());
 		assertEquals("XML", report.getFooter().getType());
