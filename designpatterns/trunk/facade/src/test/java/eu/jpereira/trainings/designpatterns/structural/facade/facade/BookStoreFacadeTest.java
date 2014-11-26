@@ -15,11 +15,13 @@
  */
 package eu.jpereira.trainings.designpatterns.structural.facade.facade;
 
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 import org.junit.Test;
 
 import eu.jpereira.trainings.designpatterns.structural.facade.BookstoreFacade;
+import eu.jpereira.trainings.designpatterns.structural.facade.DefaultBookstoreFacade;
 import eu.jpereira.trainings.designpatterns.structural.facade.model.Book;
 import eu.jpereira.trainings.designpatterns.structural.facade.model.Customer;
 import eu.jpereira.trainings.designpatterns.structural.facade.model.DispatchReceipt;
@@ -41,6 +43,7 @@ public class BookStoreFacadeTest extends AbstractClientTest {
 		Order dummyOrder = new Order();
 		DispatchReceipt dummyDispatchReceipt = new DispatchReceipt();
 
+
 		// prepate SUT
 		BookstoreFacade facade = createFacade();
 
@@ -49,6 +52,7 @@ public class BookStoreFacadeTest extends AbstractClientTest {
 		when(customerService.findCustomerById(customerId)).thenReturn(dummyCustomer);
 		when(orderingService.createOrder(dummyCustomer, dummyBook)).thenReturn(dummyOrder);
 		when(warehouseService.dispatch(dummyOrder)).thenReturn(dummyDispatchReceipt);
+
 
 		// Exercise SUT
 		facade.placeOrder(customerId, isbn);
@@ -63,14 +67,20 @@ public class BookStoreFacadeTest extends AbstractClientTest {
 	 * @return
 	 */
 	protected BookstoreFacade createFacade() {
+
 		// TODO: Implement the interface bookstoreFacade and set the
 		// dependencies. We're using mocks, so you'll have to set the mocks as
 		// dependencies of the facade
 		// Example:
-		// impl.setCustomerService(customerService)
-		// impl.setWarehouseService(wharehouseService)
+
+		BookstoreFacade impl = new DefaultBookstoreFacade();
+		impl.setNotificationService(customerNotificationService);
+		impl.setBookService(bookService);
+		impl.setCustomerService(customerService);
+		impl.setWarehouseService(warehouseService);
+		impl.setBookService(orderingService);
 		// ...
 		// Return an instance of your facade implementation
-		return null;
+		return impl;
 	}
 }
