@@ -23,6 +23,7 @@ import eu.jpereira.trainings.designpatterns.creational.singleton.crwaling.Cannot
 import eu.jpereira.trainings.designpatterns.creational.singleton.crwaling.DummySiteCrawler;
 import eu.jpereira.trainings.designpatterns.creational.singleton.crwaling.SiteCrawler;
 
+
 /**
  * @author Joao Pereira
  * 
@@ -92,10 +93,13 @@ public class ReportBuilder {
 	 */
 	public static ReportBuilder getInstance() {
 		System.out.println("Getting instance for Thread " + Thread.currentThread().getId());
-		if (instance == null) {
-			System.out.println("Instance is null for Thread " + Thread.currentThread().getId());
-			instance = new ReportBuilder();
-			System.out.println("Returing " + instance.hashCode() + " instance to Thread " + Thread.currentThread().getId());
+		
+		synchronized(ReportBuilder .class) {
+			if (instance == null) {
+				System.out.println("Instance is null for Thread " + Thread.currentThread().getId());
+				instance = new ReportBuilder();
+				System.out.println("Returing " + instance.hashCode() + " instance to Thread " + Thread.currentThread().getId());
+			}
 		}
 		return instance;
 	}
