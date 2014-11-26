@@ -17,6 +17,7 @@ package eu.jpereira.trainings.designpatterns.creational.factorymethod;
 
 public class HTMLReport extends AbstractReport {
 
+
 	@Override
 	public void generateReport(ReportData data) {
 		setReportContent("HTML Report. Name: " + data.getName());

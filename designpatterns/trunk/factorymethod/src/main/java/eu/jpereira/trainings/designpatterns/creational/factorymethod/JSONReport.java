@@ -17,6 +17,7 @@ package eu.jpereira.trainings.designpatterns.creational.factorymethod;
 
 public class JSONReport extends AbstractReport {
 
+
 	@Override
 	public void generateReport(ReportData data) {
 		setReportContent("JSON Report. Name: " + data.getName());

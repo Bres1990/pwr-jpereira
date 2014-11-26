@@ -15,12 +15,13 @@
  */
 package eu.jpereira.trainings.designpatterns.creational.factorymethod;
 
-public class XMLReport extends AbstractReport{
+public class XMLReport extends AbstractReport {
+
 
 	@Override
 	public void generateReport(ReportData data) {
-		setReportContent("XML Report. Name: "+data.getName());
-		
+		setReportContent("XML Report. Name: " + data.getName());
+
 	}
 
 }

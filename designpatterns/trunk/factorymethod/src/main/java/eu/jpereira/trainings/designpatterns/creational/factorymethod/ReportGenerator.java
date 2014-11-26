@@ -22,29 +22,16 @@ package eu.jpereira.trainings.designpatterns.creational.factorymethod;
  */
 public class ReportGenerator {
 
+	ReportFactory generatedReport = null;
 	/**
 	 * Generate a new report.
 	 * @param data The report data
 	 * @param type the type of report
 	 * @return the generated report, or null of type is unknown
 	 */
-	public Report generateReport(ReportData data, String type) {
+	public Report generateReport(ReportData data, ReportFactory report) {
 
-		Report generatedReport = null;
-
-		if (type.equals("JSON")) {
-			generatedReport = new JSONReport();
-		} else if (type.equals("XML")) {
-			generatedReport = new XMLReport();
-		} else if (type.equals("HTML")) {
-			generatedReport = new HTMLReport();
-		} else if (type.equals("PDF")) {
-			generatedReport = new PDFReport();
-		}
-		if (generatedReport != null) {
-			generatedReport.generateReport(data);
-		}
-
-		return generatedReport;
+		return report.createReport();
 	}
+
 }
