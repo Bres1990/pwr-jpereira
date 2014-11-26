@@ -27,7 +27,8 @@ public class OnState implements ApplianceStateBehavior {
 	 */
 	@Override
 	public ApplianceState getState() {
-		return null;
+		return ApplianceState.ON;
+		//return null;
 		//TODO: return the correnponding state enum. This represents the ON State, so return ApplianceState.ON;
 	}
 
@@ -36,8 +37,9 @@ public class OnState implements ApplianceStateBehavior {
 	 */
 	@Override
 	public ApplianceStateBehavior start() {
-		//TODO: return the STARTED Behavior ApplianceState.STARTED.getStateBehavior()
-		return null;
+		//TODO: return the STARTED Behavior 
+		return ApplianceState.STARTED.getStateBehavior();
+		//return null;
 		
 	}
 
