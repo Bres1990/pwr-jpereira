@@ -62,7 +62,7 @@ public class FakeWeatherStationControllerFactory implements WeatherStationContro
 
 		//Try to get from the map of available instances of controller
 		WeatherStationController controller = this.controllers.get(ipAddress);
-		//If does not exists, create it
+		//If does not exists, create
 		if (controller == null) {
 			
 			controller = new FakeWeatherStationController(new TemperatureSensor(), new HumiditySensor(), new WindSensor());
