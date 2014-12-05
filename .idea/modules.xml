@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/abstractfactory/abstractfactory.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/abstractfactory/abstractfactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/adapter/adapter.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/adapter/adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/bridge/bridge.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/bridge/bridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/builder/builder.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/builder/builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/chainofresponsability/chainofresponsability.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/chainofresponsability/chainofresponsability.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/command/command.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/command/command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/composite/composite.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/composite/composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/decorator/decorator.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/decorator/decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/facade/facade.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/facade/facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/factorymethod/factorymethod.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/factorymethod/factorymethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/flyweight/flyweight.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/flyweight/flyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/iterator/iterator.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/iterator/iterator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jpereira.iml" filepath="$PROJECT_DIR$/.idea/jpereira.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/mediator/mediator.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/mediator/mediator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/memento/memento.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/memento/memento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/observer/observer.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/observer/observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/prototype/prototype.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/prototype/prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/proxy/proxy.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/proxy/proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/singleton/singleton.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/state/state.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/state/state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/strategy/strategy.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/strategy/strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpatterns/trunk/visitor/visitor.iml" filepath="$PROJECT_DIR$/designpatterns/trunk/visitor/visitor.iml" />
+    </modules>
+  </component>
+</project>
+

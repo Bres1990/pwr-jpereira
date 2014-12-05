@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="" />
+        <datasource-mapping>
+          <factory-entry name="projectPU" />
+        </datasource-mapping>
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/clientview/exercise/bookstore/ejb/src/main/resources/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/clientview/exercise/bookstore/web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/ejb31/clientview/exercise/bookstore/web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/decorators/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/decorators/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/jeequickstart/business-test/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/jeequickstart/business-test/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web4">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/events/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/events/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web5">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/clientview/solution/bookstore/web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/ejb31/clientview/solution/bookstore/web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web6">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/jeetesting/business-test/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/jeetesting/business-test/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web7">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/interceptors/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/interceptors/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web8">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/jax-rs/projectemngt/web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/jax-rs/projectemngt/web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web9">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/decorators/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/decorators/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web10">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/stereotypes/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/stereotypes/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web11">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/producers/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/producers/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web12">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/producers/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/producers/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web13">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/jax-rs/projectemngt/rest-api/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/jax-rs/projectemngt/rest-api/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web14">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/async/exercise/bookstore/web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/ejb31/async/exercise/bookstore/web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web15">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/async/solution/bookstore/web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/ejb31/async/solution/bookstore/web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web16">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/stereotypes/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/stereotypes/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web17">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/interceptors/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/interceptors/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web18">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/injection/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/solutions/injection/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web19">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/events/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/events/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web20">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/injection/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/cdi/exercises/injection/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web21">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/singleton/exercise/bookstore/web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/ejb31/singleton/exercise/bookstore/web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web22">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/singleton/solution/bookstore/web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jee/trunk/ejb31/singleton/solution/bookstore/web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/mdb/queues/services/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/clientview/solution/bookstore/ejb/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/singleton/solution/bookstore/ejb/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB4">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/async/exercise/bookstore/ejb/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB5">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/persistence/settingup/services/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB6">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/statemngt/exercise/services/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB7">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/timers/exercise/services/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB8">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/async/solution/bookstore/ejb/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB9">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/mdb/topics/services/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB10">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/clientview/exercise/bookstore/ejb/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB11">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/ejb31/singleton/exercise/bookstore/ejb/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB12">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/jax-rs/projectemngt/ejb/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+    <facet type="ejb" name="EJB13">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="ejb-jar.xml" url="file://$MODULE_DIR$/jee/trunk/persistence/modelling/services/src/main/resources/META-INF/ejb-jar.xml" />
+        </descriptors>
+        <ejbRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

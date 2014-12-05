@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/abstractfactory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/bridge" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/builder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/chainofresponsability" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/command" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/composite" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/decorator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/facade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/factorymethod" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/flyweight" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/iterator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/mediator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/memento" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/observer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/prototype" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/singleton" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/state" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/strategy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/designpatterns/trunk/visitor" charset="UTF-8" />
+  </component>
+</project>
+

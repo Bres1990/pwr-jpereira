@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="IdProvider" IDEtalkID="FA8603F96D7EE07839491F7C6E649C8A" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/designpatterns/trunk/flyweight/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/abstractfactory/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/bridge/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/builder/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/chainofresponsability/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/command/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/composite/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/decorator/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/facade/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/factorymethod/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/iterator/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/mediator/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/memento/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/observer/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/state/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/strategy/pom.xml" />
+        <option value="$PROJECT_DIR$/designpatterns/trunk/visitor/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
+</project>
+
