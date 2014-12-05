@@ -15,10 +15,7 @@
  */
 package eu.jpereira.trainings.designpatterns.structural.flyweight.fakes;
 
-import eu.jpereira.trainings.designpatterns.structural.flyweight.controller.HumiditySensor;
-import eu.jpereira.trainings.designpatterns.structural.flyweight.controller.TemperatureSensor;
 import eu.jpereira.trainings.designpatterns.structural.flyweight.controller.WeatherStationController;
-import eu.jpereira.trainings.designpatterns.structural.flyweight.controller.WindSensor;
 import eu.jpereira.trainings.designpatterns.structural.flyweight.dao.Dao;
 import eu.jpereira.trainings.designpatterns.structural.flyweight.model.City;
 import eu.jpereira.trainings.designpatterns.structural.flyweight.model.WeatherStation;
@@ -66,7 +63,6 @@ public class FakeWeatherService implements WeatherService {
 	}
 
 	/**
-	 * @param controller
 	 * @return
 	 */
 	private WeatherReading readStationController(String ipAddress) {
@@ -74,10 +70,10 @@ public class FakeWeatherService implements WeatherService {
 		// factory call. Comment the instantiation and uncomment the factory call
 		
 		// TODO:. Comment it
-		WeatherStationController controller = new FakeWeatherStationController(new TemperatureSensor(), new HumiditySensor(), new WindSensor());
+		//WeatherStationController controller = new FakeWeatherStationController(new TemperatureSensor(), new HumiditySensor(), new WindSensor());
 		
 		//TODO: Uncomment it
-		//WeatherStationController controller = FakeWeatherStationControllerFactory.instance().getController(ipAddress);
+		WeatherStationController controller = FakeWeatherStationControllerFactory.instance().getController(ipAddress);
 
 		String temperature = controller.getTemperatureValue(ipAddress);
 		String humidity = controller.getHumidityValue(ipAddress);
